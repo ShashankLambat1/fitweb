@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    color: white;
+}
+
+body > img{
+    display: block;
+    height: 100hv;
+    padding-top: 100px;
+}
+
+.header{
+
+    background-color: black;
+    height: 100px;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    
+}
+.left img{
+    width: 120px;
+}
+
+.left div{
+    font-size: 25px;
+    text-align: center;
+}
+.mid{
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+.navbar{
+    color: white;
+    display: inline-block;
+}
+
+.navbar li{
+    font-family: Arial;
+    margin: 15px;
+    display: inline-block;
+    font-size: 26px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: grey;
+
+}
